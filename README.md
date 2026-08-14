@@ -1,4 +1,4 @@
-# GitHub Sourcing Guide
+# How to source developers on GitHub, a free DIY guide
 
 A practical, open-source guide to **finding and recruiting developers on GitHub** using only GitHub's own search and public API. No paid tools required.
 
