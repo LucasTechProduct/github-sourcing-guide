@@ -1,10 +1,8 @@
 # How to source developers on GitHub, a free DIY guide
 
-A practical, open-source guide to **finding and recruiting developers on GitHub** using only GitHub's own search and public API. No paid tools required.
+A practical, open-source guide to finding and recruiting developers on GitHub using only GitHub's own search and public API. No paid tools required.
 
-This is the DIY method: it works, it is free, and it is a great way to learn how technical sourcing works. It also has real limits (more on that below), which is exactly where an automated tool takes over.
-
-> Maintained by the team behind [StarHunt](https://www.getstarhunt.com/github-sourcing.html), a GitHub sourcing tool that ranks developers by what they actually build. This guide is the manual version of what StarHunt automates.
+I put this together while building [StarHunt](https://www.getstarhunt.com), because the manual method is worth knowing before you reach for any tool. It works, it is free, and it is a good way to learn how technical sourcing actually works. It also runs into real limits, covered at the end, which is where automating it starts to pay off.
 
 ## Contents
 
@@ -89,16 +87,9 @@ A short, hand-picked starter list of canonical repositories per technology lives
 
 ## The limits of the DIY method
 
-Be honest with yourself about where this stops working:
+It is worth being honest about where this stops working. GitHub Search returns at most 1000 results per query, no matter how many people actually match, so any broad search silently truncates. It is keyword-only, so it finds people who describe themselves the right way rather than everyone who does the work, and it orders results by "best match" instead of by recent contributions or the languages in someone's own repositories. Enriching profiles is one API call each, so a few hundred candidates means babysitting rate limits. Locations are free text ("Paris", "Paris, France", "IDF"), the same person turns up across several repos, and you dedupe and clean all of that by hand. Finding people is only half of it, organizing and exporting a shortlist is the other half.
 
-- **1000-result ceiling.** GitHub Search returns at most 1000 results per query, no matter how many people match.
-- **Keyword-only.** It finds people who describe themselves the right way, not everyone who does the work.
-- **No ranking by real activity.** Results are ordered by "best match", not by recent contributions or the languages in someone's own repositories.
-- **Rate limits.** Enriching hundreds of profiles means hundreds of API calls, so you spend time babysitting rate limits.
-- **No deduplication, no normalization.** Locations are free text ("Paris", "Paris, France", "IDF"), and you dedupe and clean by hand.
-- **No contact workflow.** Finding people is one thing, organizing and exporting a shortlist is another.
-
-When the DIY method starts costing you more time than it saves, that is the point of an automated tool. [StarHunt](https://www.getstarhunt.com/github-sourcing.html) does all of the above from a plain-English description or a job post, ranks people by their real GitHub activity, normalizes locations to metro areas, and exports a clean shortlist. There is a free tier if you want to compare it against your own scripts.
+At some point cleaning this up by hand costs more than it saves. That is the part I ended up automating in [StarHunt](https://www.getstarhunt.com/github-sourcing.html): it takes a plain-English brief or a job post, ranks people by their real GitHub activity, normalizes locations to metro areas, and exports a clean shortlist. There is a free tier if you want to hold it against your own scripts.
 
 ## Contributing
 

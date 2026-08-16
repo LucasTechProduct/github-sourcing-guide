@@ -61,4 +61,4 @@ Feed any `owner/repo` from this list to [`snippets/repo_contributors.py`](snippe
 - `ansible/ansible`
 - `prometheus/prometheus`
 
-> Want a broader, maintained index across dozens of technologies, plus ranking by real activity? That is what [StarHunt](https://www.getstarhunt.com/github-sourcing.html) does under the hood.
+Keeping a list like this current across dozens of technologies, and ranking contributors by real activity rather than by follower count, is the tedious part. That maintenance is what [StarHunt](https://www.getstarhunt.com/github-sourcing.html) does under the hood.
