@@ -1,8 +1,6 @@
 # How to source developers on GitHub, a free DIY guide
 A practical, open-source guide to finding and recruiting developers on GitHub using only GitHub's own search and public API. No paid tools required.
 
-I put this together while building [StarHunt](https://www.getstarhunt.com), because the manual method is worth knowing before you reach for any tool. It works, it is free, and it is a good way to learn how technical sourcing actually works. It also runs into real limits, covered at the end, which is where automating it starts to pay off.
-
 ## Contents
 - [Why source on GitHub](#why-source-on-github)
 - [Method 1: GitHub user search](#method-1-github-user-search)
@@ -16,6 +14,8 @@ I put this together while building [StarHunt](https://www.getstarhunt.com), beca
 GitHub is the richest public record of what an engineer actually builds. For hiring, that means you can evaluate candidates on evidence (their code, their contributions, the projects they ship) instead of on a resume or a LinkedIn headline.
 
 The hard part is doing it at scale, because GitHub's search is built for code, not for people.
+
+I put this together while building [StarHunt](https://www.getstarhunt.com), because the manual method is worth knowing before you reach for any tool. It works, it is free, and it is a good way to learn how technical sourcing actually works. It also runs into real limits, covered at the end, which is where automating it starts to pay off.
 
 ## Method 1: GitHub user search
 GitHub lets you search users with qualifiers. Combine them in the search box at [github.com/search?type=users](https://github.com/search?type=users) or via the API.
